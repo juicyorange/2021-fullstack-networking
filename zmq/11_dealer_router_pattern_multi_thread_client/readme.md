@@ -1,4 +1,4 @@
-## 09-10. ZMQ DEALER ROUTER PATTERN
+## 11. ZMQ DEALER ROUTER ASYNC CLIENT
 
 <br>
 
@@ -12,7 +12,7 @@
 
 - 그래도 한번 구현해보려 노력했는데, 폴더안에 `lec-05-prg-11-dealer-router-async-client-thread(impossible).js` 라는 파일이 있는데 쓰레드로 만들려다 실패한 결과이다.
 
-- 실패 이유에 대한 생각 (([참조레퍼런스](https://stackoverflow.com/questions/40028377/is-it-possible-to-achieve-multithreading-in-nodejs)))
+- 실패 이유에 대한 생각 ([참조레퍼런스](https://stackoverflow.com/questions/40028377/is-it-possible-to-achieve-multithreading-in-nodejs))
 
   - 동작시켜보면 아래와 같이 메시지만 보내지고, 응답은 받지 못한다.
 
