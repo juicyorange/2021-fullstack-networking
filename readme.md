@@ -26,7 +26,7 @@
 
 <br/>
 
-## 🌈 선택언어 [Next.js](https://nodejs.org/)
+## 🌈 선택언어 [Node.js](https://nodejs.org/)
 
 `node.js`를 선택하게 된 이유는 프론트엔드 개발에 관심이 있어 주로 `javascript` 를 사용하여 개발을 진행해왔고, 가장 익숙하기 때문에 `javasciprt`를 기반으로 서버사이드 개발을 진행할 수 있는 플랫폼인 `node.js`를 선택하게 되었습니다.
 
@@ -63,7 +63,7 @@ Lecture_04_Socket과 Lecture_05_ZMQ 챕터 2가지를 선택하여 node.js로 �
 
 각 링크에 들어가면 코드, 코드에 대한 readme, 실행영상이 포함되어 있다.
 
-- [SOCKET](<(https://github.com/juicyorange/2021-fullstack-networking/tree/main/socket)>)
+- [SOCKET](https://github.com/juicyorange/2021-fullstack-networking/tree/main/socket)
 
   - [01-02. TCP ECHO](https://github.com/juicyorange/2021-fullstack-networking/tree/main/socket/01_02_tcp_echo)
   - [03-04. TCP ECHO COMPLETE](https://github.com/juicyorange/2021-fullstack-networking/tree/main/socket/03_04_tcp_echo_complete)
