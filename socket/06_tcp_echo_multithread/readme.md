@@ -11,11 +11,11 @@
    <img src="./1.png" alt="drawing" width="700"/>
 
 - 파이썬에서 구현된 것처럼 클라이언트 요청이 들어올때마다 서버 쓰레드(프로세스)를 만드는 것은 불가능하다.
-  (([참조레퍼런스](https://stackoverflow.com/questions/40028377/is-it-possible-to-achieve-multithreading-in-nodejs)))
+  ([참조레퍼런스](https://stackoverflow.com/questions/40028377/is-it-possible-to-achieve-multithreading-in-nodejs))
 
   - node.js 는 single thread 방식으로 쓰레드를 만들려면 프로세스를 생성해야한다.
 
-  - 이때 하나의 서버안의 `event listener` 와 같은 것들을 쓰레드로 분리하는 것이 불가능하다. ([참조-실패이유](../zmq/dealer_router_pattern_multi_thread_client/#개발-결과물))
+  - 이때 하나의 서버안의 `event listener` 와 같은 것들을 쓰레드로 분리하는 것이 불가능하다. ([참조할만한 내용: zmq-11-실패이유](https://github.com/juicyorange/2021-fullstack-networking/tree/main/zmq/11_dealer_router_pattern_multi_thread_client)
 
   - 결국에는 새로만든 쓰레드(프로세스)에서 서버를 하나 더 만들어야 하는데, 이렇게되면 프로세스가 새로 생겼기 때문에 새로운 포트에 서버를 열어야하고(기존것은 이미 사용하고 있기 때문), 이렇게 되면 클라이언트가 connect를 요청한 주소와 다른곳에가서 연결되기 때문에 문제가 생긴다.
 

@@ -6,7 +6,7 @@
   <h2 align="center">2021-fullstack-netwokring-project</h2>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    강의에서 배웠던 통신기술인 socket, zmq를 node.js를 이용하여 구현해보자!!
     <br />
     <br />
   </p>
@@ -59,7 +59,7 @@ Lecture_04_Socket과 Lecture_05_ZMQ 챕터 2가지를 선택하여 node.js로 �
 
 ## ❄️ 예제 목록
 
-각 예제는 과제에 명시된 대로 강의자료에 있는 것과 동일한 이름을 사용했고, 그것들을 포함한 디렉토리는 내용을 함축해서 적는대신, 앞에 코드의 번호를 적어놓았다.
+각 예제코드 파일은 과제설명에 명시된 대로 강의자료에 있는 것과 동일한 이름을 사용했고, 그것들을 포함한 디렉토리는 내용을 함축해서 적는대신, 앞에 예제코드의 번호를 적어놓았다.
 
 각 링크에 들어가면 코드, 코드에 대한 readme, 실행영상이 포함되어 있다.
 
